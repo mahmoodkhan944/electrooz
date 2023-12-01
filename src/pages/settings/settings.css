@@ -1,0 +1,119 @@
+.settings {
+  display: flex;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: rgb(240, 128, 128);
+}
+
+.settingsDeleteTitle {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.settingsPP > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(240, 128, 128);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.settingsPPIcon:hover {
+  background-color: rgb(6, 138, 239);
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsForm > input {
+  color: rgb(128, 128, 128);
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.settingsSubmit {
+  width: 150px;
+  align-self: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(30, 38, 42);
+  padding: 8px 30px;
+  margin-top: 20px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  line-height: normal;
+  cursor: pointer;
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+}
+.settingsSubmit:hover {
+  background-color: rgb(6, 138, 239);
+  border-radius: 1px solid rgb(6, 138, 239);
+}
+
+/*.settingsSubmit{
+  width: 150px;
+  align-self: center;
+  font-size: 0.8rem;
+  padding: 8px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  line-height: normal;
+  cursor: pointer;
+  color: black;
+	background: none;
+	
+	letter-spacing: 0.35em;
+	font-size: 0.7em;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
+	margin: 1em;
+  box-shadow: inset 0 0 1em rgba(0,170,170,0.5), 0 0 1em rgba(0,170,170,0.5);
+		border: #0dd solid 2px;
+}
+.settingsSubmit:hover{
+  background-color: #0dd;
+  color: white;
+		box-shadow: inset 0 0 0 rgba(0,170,170,0.5), 0 0 1.5em rgba(0,170,170,0.7);
+	}*/

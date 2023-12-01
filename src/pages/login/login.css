@@ -1,0 +1,70 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgb(255, 255, 255, 0.5),
+      rgb(255, 255, 255, 0.5)
+    ),
+    url("https://media.designcafe.com/wp-content/uploads/2021/10/25033412/choosing-yellow-modern-l-shaped-kitchen-for-a-flamboyant-look.jpg");
+  background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+    color: rgb(0, 0, 0);
+    width: 150px;
+    align-self: center;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2.5vh;
+}
+.loginButton:hover{
+    background-color: rgb(5, 138, 240);
+    color: rgb(255, 255, 255);
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 69, 0);
+    color: rgb(0, 0, 0);
+    width: 150px;
+    align-self: center;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2.5vh;
+}
+.loginRegisterButton:hover{
+    background-color: rgb(6, 138, 239);
+    color: rgb(255, 255, 255);
+}

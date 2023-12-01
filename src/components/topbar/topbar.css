@@ -1,0 +1,112 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.facebook {
+  font-size: 20px;
+  margin-right: 10px;
+  /* color: blue; */
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+.facebook:hover {
+  color: rgb(0, 0, 255);
+}
+
+.twitter {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+.twitter:hover {
+  color: rgb(0, 172, 240)
+}
+
+.pinterest {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+}
+.pinterest:hover {
+  color: rgb(191, 8, 29);
+}
+
+.instagram {
+  margin-right: 10px;
+  color: rgb(102, 102, 102);
+
+  font-size: 20px;
+  cursor: pointer;
+}
+.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    rgb(252, 244, 150) 0%,
+    rgb(253, 244, 150) 5%,
+    rgb(253, 88, 73) 45%,
+    rgb(214, 36, 157) 60%,
+    rgb(40, 89, 235) 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topListItem:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(0, 172, 240);
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+  cursor: pointer;
+  margin-left: 15px;
+}
+.topSearchIcon:hover {
+  transform: scale(0.75) translate(-16%, 0);
+  color: rgb(103, 77, 255);
+}
